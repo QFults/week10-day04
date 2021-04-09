@@ -1,6 +1,29 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom'
+import Home from './pages/Home'
+import Profile from './pages/Profile'
+import Navbar from './components/Navbar'
+
 const App = () => {
   return (
-    <h1>Hello World!</h1>
+    <>
+      <Router>
+        <div>
+          <Navbar />
+          <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
+            <Route path='/profile'>
+              <Profile />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    </>
   )
 }
 
