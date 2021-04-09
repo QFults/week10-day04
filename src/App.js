@@ -14,10 +14,10 @@ const App = () => {
         <div>
           <Navbar />
           <Switch>
-            <Route exact path='/'>
+            <Route exact path='/week10-day04/'>
               <Home />
             </Route>
-            <Route path='/profile'>
+            <Route path='/week10-day04/profile'>
               <Profile />
             </Route>
           </Switch>
