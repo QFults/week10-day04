@@ -24,12 +24,12 @@ const Navbar = () => {
         <Nav navbar>
           <NavItem>
             <NavLink>
-              <Link to='/' className='navLink'>Home</Link>
+              <Link to='/week10-day04/' className='navLink'>Home</Link>
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink>
-              <Link to='/profile' className='navLink'>Profile</Link>
+              <Link to='/week10-day04/profile' className='navLink'>Profile</Link>
             </NavLink>
           </NavItem>
         </Nav>
